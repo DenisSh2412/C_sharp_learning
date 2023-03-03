@@ -12,11 +12,11 @@ bool CheckPalindrome(int number){
 //         number/=10;
 //         i+=1;
 //     }
-//     return num[0] == num[4] && num[1]==num[3];
+//     return num[0] == num[4] && num[1] == num[3];
 // }
 // bool CheckPalindromeString(int number){
 //     string s = number.ToString();
-//     return s[0] == s[4] && s[1]==s[3];
+//     return s[0] == s[4] && s[1] == s[3];
 // }
 
 Console.Write("Введите пятизначное число: ");
