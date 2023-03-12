@@ -23,16 +23,16 @@ PrintArray(arr, countEven(arr));
 
 // Task 2. Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
 /*
-long sumofOddPositions(int[] arr){
+int sumofOddPositions(int[] arr){
     Random rand = new Random();
-    long sum = 0;
+    int sum = 0;
     for(int i = 0; i<arr.Length; i++){
         arr[i] = rand.Next(-100, 100);
         if(i%2!=0) {sum+=arr[i];}
     }
     return sum;
 }
-void PrintArray(int[] arr, long n){
+void PrintArray(int[] arr, int n){
     Console.WriteLine(string.Join(" ", arr));
     Console.Write($"Сумма элементов на нечетных позициях = {n} ");
 }
